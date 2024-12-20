@@ -103,7 +103,7 @@ function modal(content, callback) {
         '<div class="mask"></div>'+
         '<div class="modal">'+
         '<p>'+ content +'</p>'+
-        '<button type="button" id="confirm" class="confirm">你认错人了</button>'+
+        '<button type="button" id="confirm" class="confirm">确认</button>'+
         '</div>'+
         '</div>';
     $('body').append(tpl);
